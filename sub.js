@@ -120,3 +120,64 @@ document.write("<br/>");
 document.write("This is the name of the object: "+ person.firstname+" "+person.lastname+"<br/>");
 
 document.write("<br/>");
+ if(6 === 6) {
+    document.write('true');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ if(10 <= 6) {
+    document.write('false');
+    console.log('No');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ if(8 >= 8) {
+    document.write('true');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ let price2 = 30;
+ if (price2 !== 15) {
+    document.write('discounted');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ if("0") {
+    document.write('true');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ /*if(false) {
+    document.write(Boolean);
+ }
+ document.write("<br/>");*/
+
+ document.write("<br/>");
+let price1 = 4;
+ if(price1 > 10) {
+    document.write('true');
+ }
+ else if (price1 < 5){
+    document.write('less than 5');
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ if(1 === "1") {
+    document.write('true');
+ }
+ else {
+    document.write('false')
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ let price3 =20;
+     (price3 > 10) ? document.write('yes') : document.write('no');
+ 
+ document.write("<br/>");
