@@ -197,3 +197,27 @@ let price1 = 4;
     document.write('value');
  }
  document.write("<br/>");
+
+ document.write("<br/>");
+ document.write("for loop: ");
+ for (let i=0; i<6; i++) {
+    document.write("<br/>"+i);
+ }
+ document.write("<br/>");
+
+ document.write("<br/>");
+ document.write(" while loop: ");
+  let i = 5; 
+    while(i>0){
+    document.write("<br/>"+i);
+    i--;
+ }
+ document.write("<br/>");
+ document.write("do while loop: ");
+
+ let j = -5; 
+   do {
+   document.write(j);
+   j--;
+} while (j>o);
+document.write("<br/>");
