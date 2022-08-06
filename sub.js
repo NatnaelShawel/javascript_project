@@ -118,3 +118,5 @@ document.write("This is type of method:"+typeof person+"<br/>");
 
 document.write("<br/>");
 document.write("This is the name of the object: "+ person.firstname+" "+person.lastname+"<br/>");
+
+document.write("<br/>");
