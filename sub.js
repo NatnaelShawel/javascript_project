@@ -175,9 +175,18 @@ let price1 = 4;
     document.write('false')
  }
  document.write("<br/>");
+ document.write("<br/>");
+ if(6 === 6) {
+    document.write('true');
+ }
+ document.write("<br/>");
 
  document.write("<br/>");
- let price3 =20;
-     (price3 > 10) ? document.write('yes') : document.write('no');
- 
+ let price3 = 20;
+    (price3 < 10) ? document.write('yes') : document.write('no');
+ document.write("<br/>");
+
+ document.write("<br/>");
+ let price4 = 20;
+    (price4 > 10) ? document.write('yes') : document.write('no');
  document.write("<br/>");
