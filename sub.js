@@ -190,3 +190,10 @@ let price1 = 4;
  let price4 = 20;
     (price4 > 10) ? document.write('yes') : document.write('no');
  document.write("<br/>");
+
+ document.write("<br/>");
+ if(true) {
+    let value = 'yes';
+    document.write('value');
+ }
+ document.write("<br/>");
