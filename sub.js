@@ -219,5 +219,19 @@ let price1 = 4;
    do {
    document.write(j);
    j--;
-} while (j>o);
-document.write("<br/>");
+ } while (j>0);
+
+  document.write("<br/>");
+  document.write("function" +"<br/>");
+   function logMessagee(){
+    document.write("Here is message for function declaration and calling." +"<br/>" );
+ }
+  logMessagee();
+
+  document.write("<br/>");
+  let fn=function(){
+   document.write("Here is the message for function expression and calling");
+
+  }
+  fn();
+ 
