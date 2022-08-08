@@ -230,8 +230,20 @@ let price1 = 4;
 
   document.write("<br/>");
   let fn=function(){
-   document.write("Here is the message for function expression and calling");
+   document.write("Here is the message for function expression and calling."+ "<br/>");
 
   }
   fn();
  
+  document.write("<br/>");
+  let myfunction = function (message){
+  document.write(message);
+  }
+    myfunction('Hello' + "<br/>");
+
+    document.write("<br/>");
+  let my = function (message , firstname){
+  document.write(message);
+  document.write(firstname);
+  }
+    my('Hello' , "&nbsp" + 'Sami'+ "<br/>");
