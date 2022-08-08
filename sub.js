@@ -247,3 +247,10 @@ let price1 = 4;
   document.write(firstname);
   }
     my('Hello' , "&nbsp" + 'Sami'+ "<br/>");
+
+    document.write("<br/>");
+    function number(value2){
+      let code = value2 * 30;
+      return code;
+    }
+    document.write( number(3) + "<br/>");
