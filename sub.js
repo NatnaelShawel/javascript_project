@@ -254,3 +254,18 @@ let price1 = 4;
       return code;
     }
     document.write( number(3) + "<br/>");
+
+    document.write("<br/>");
+    let key = 42;
+    function number1(value3){
+      let keyGenerator = function(){
+      let key = 12;
+      document.write('in keyGenerator:' , key,"<br/>");
+      return key;
+    }
+    let code1 = value3 * keyGenerator();
+    document.write('in number3:' , key , "<br/>");
+    return code1;
+   }
+   let number2 = number1(2);
+    document.write( number2 + "<br/>");
