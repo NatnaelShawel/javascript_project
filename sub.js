@@ -328,3 +328,23 @@ let price1 = 4;
       
     };
     person6.showinfo();
+
+    document.write("<br/>");
+    let message1 = 'Hello';
+    function changeMessage(message1){
+      message1 = 'Hi!';
+    }
+    changeMessage(message1);
+    document.write(message1 + "<br/>");
+
+    document.write("<br/>");
+    let person7 = {
+       name:'Jhon',
+       age:42,
+       Id:0025
+    };
+     function Incrementage(person7){
+       person7.age++;
+     }
+     Incrementage(person7);
+    document.write( "Passing by reference it's show age change:" + person7.age + "<br/>");
