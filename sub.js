@@ -276,7 +276,7 @@ let price1 = 4;
        age:42,
        Id:0025
     };
-    document.write(person1.name + "<br/>");
+    document.write("Obeject method it's show name:" + person1.name + "<br/>");
 
     document.write("<br/>");
     let person2 = {
@@ -284,7 +284,7 @@ let price1 = 4;
        age:42,
        Id:0025
     };
-    document.write(person2.age + "<br/>");
+    document.write( "Obeject method it's show age:" + person2.age + "<br/>");
 
     
     document.write("<br/>");
@@ -293,7 +293,7 @@ let price1 = 4;
        age:42,
        Id:'0025'
     };
-    document.write(person3.Id + "<br/>");
+    document.write(  "Obeject method it's show Id:" + person3.Id + "<br/>");
 
     document.write("<br/>");
     let person4 = {
@@ -302,4 +302,29 @@ let price1 = 4;
        Id:'0025'
     };
     person4['age'] =50;
-    document.write(person4.age + "<br/>");
+    document.write(  "Obeject method it's show update age:" + person4.age + "<br/>");
+
+    document.write("<br/>");
+    let person5 = {
+       name:'Jhon',
+       age:42,
+       Id:'0025',
+       showinfo: function() {
+         document.write("Obeject method it's show information about person:" + 'In showInfo' + "<br/>");
+       }
+      
+    };
+    person5.showinfo();
+    //document.write(person5.age + "<br/>");
+
+    document.write("<br/>");
+    let person6 = {
+       name:'Jhon',
+       age:42,
+       Id:'0025',
+       showinfo: function() {
+         document.write( "Obeject method it's show person name and age:" + this.name + "&nbsp"+ 'is' + "&nbsp" + this.age + "<br/>");
+       }
+      
+    };
+    person6.showinfo();
