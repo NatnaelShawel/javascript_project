@@ -348,3 +348,15 @@ let price1 = 4;
      }
      Incrementage(person7);
     document.write( "Passing by reference it's show age change:" + person7.age + "<br/>");
+
+    
+    document.write("<br/>");
+    let now = new Date();
+    document.write( "Standard Built-in Object:" + now.toDateString() + "<br/>");
+
+    document.write("<br/>");
+     document.write( "Standard Built-in Object:" + Math.abs(-70) + "<br/>");
+
+     document.write("<br/>");
+     let s = 'Hello';
+     document.write( "Standard Built-in Object Position:" + s.charAt(0) + "<br/>");
