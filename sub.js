@@ -269,3 +269,37 @@ let price1 = 4;
    }
    let number2 = number1(2);
     document.write( number2 + "<br/>");
+
+    document.write("<br/>");
+    let person1 = {
+       name:'Jhon',
+       age:42,
+       Id:0025
+    };
+    document.write(person1.name + "<br/>");
+
+    document.write("<br/>");
+    let person2 = {
+       name:'Jhon',
+       age:42,
+       Id:0025
+    };
+    document.write(person2.age + "<br/>");
+
+    
+    document.write("<br/>");
+    let person3 = {
+       name:'Jhon',
+       age:42,
+       Id:'0025'
+    };
+    document.write(person3.Id + "<br/>");
+
+    document.write("<br/>");
+    let person4 = {
+       name:'Jhon',
+       age:42,
+       Id:'0025'
+    };
+    person4['age'] =50;
+    document.write(person4.age + "<br/>");
