@@ -385,3 +385,23 @@ let price1 = 4;
      const value5 = ['a','b','c'];
      value5[0] = 'EEE';
      document.write(" Accessig Array change value:"+value5[0] + "<br/>"); 
+
+     document.write("<br/>");
+     const value6 = ['a','b','c'];
+     value6.push('d','e','f');
+     document.write(" Push Array value:"+value6 + "<br/>"); 
+
+     document.write("<br/>");
+     const value7 = ['a','b','c'];
+     const last = value7.pop();
+     document.write(" Pop Array value:"+value7 , last + "<br/>"); 
+
+     document.write("<br/>");
+     const value8 = ['a','b','c'];
+     const first = value8.shift();
+     document.write(" Shift Array value:"+value8 , first + "<br/>"); 
+
+     document.write("<br/>");
+     const value9 = ['a','b','c'];
+     value9.unshift('Hello','Nati');
+     document.write(" Unshift Array value:"+value9  + "<br/>"); 
