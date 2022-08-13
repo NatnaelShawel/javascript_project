@@ -363,8 +363,25 @@ let price1 = 4;
 
      document.write("<br/>");
      const values = ['a','b','c'];
-     document.write("Array:"+values); 
+     document.write("Array:"+values + "<br/>"); 
 
      document.write("<br/>");
      const value1 = ['a','b','c'];
-     document.write("Array:"+ Array.isArray(values)); 
+     document.write("Array:"+ Array.isArray(values) + "<br/>"); 
+
+     document.write("<br/>");
+     const value2 = ['a','b','c'];
+     document.write(" Accessig Array:"+value2[0] + "<br/>"); 
+
+     document.write("<br/>");
+     const value3 = ['a','b','c'];
+     document.write(" Accessig Array:"+value3[10] + "<br/>"); 
+
+     document.write("<br/>");
+     const value4 = ['a','b','c'];
+     document.write(" Accessig Array:"+value4[2] + "<br/>"); 
+
+     document.write("<br/>");
+     const value5 = ['a','b','c'];
+     value5[0] = 'EEE';
+     document.write(" Accessig Array change value:"+value5[0] + "<br/>"); 
