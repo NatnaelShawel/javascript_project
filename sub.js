@@ -360,3 +360,11 @@ let price1 = 4;
      document.write("<br/>");
      let s = 'Hello';
      document.write( "Standard Built-in Object Position:" + s.charAt(0) + "<br/>");
+
+     document.write("<br/>");
+     const values = ['a','b','c'];
+     document.write("Array:"+values); 
+
+     document.write("<br/>");
+     const value1 = ['a','b','c'];
+     document.write("Array:"+ Array.isArray(values)); 
