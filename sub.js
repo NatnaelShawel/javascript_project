@@ -402,6 +402,26 @@ let price1 = 4;
      document.write(" Shift Array value:"+value8 , first + "<br/>"); 
 
      document.write("<br/>");
-     const value9 = ['a','b','c'];
+     const value9 = ['a','b','c','d','e'];
      value9.unshift('Hello','Nati');
      document.write(" Unshift Array value:"+value9  + "<br/>"); 
+
+     document.write("<br/>");
+     const values1 = ['a','b','c','d','e'];
+     const newvalues1 = values1.slice(1,4);
+     document.write(" Slice Array value:"+ newvalues1 + "<br/>"); 
+
+     document.write("<br/>");
+     const values2 = ['a','b','c','d','e'];
+     values2.splice(2,1);
+     document.write(" Splice Array value:"+ values2 + "<br/>"); 
+
+     document.write("<br/>");
+     const values3 = ['a','b','c','d','e'];
+     values3.splice(2,0,'Hello');
+     document.write(" Splice inserting Array value:"+ values3 + "<br/>"); 
+
+     document.write("<br/>");
+     const values4 = ['a','b','c','d','e'];
+     values4.splice(2,1,'Hello');
+     document.write(" Splice inserting and delete Array value:"+ values4 + "<br/>"); 
