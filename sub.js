@@ -425,3 +425,30 @@ let price1 = 4;
      const values4 = ['a','b','c','d','e'];
      values4.splice(2,1,'Hello');
      document.write(" Splice inserting and delete Array value:"+ values4 + "<br/>"); 
+
+     document.write("<br/>");
+     const values5 = ['a','b','c'];
+     document.write(" Array index value:"+values5.indexOf('a') + "<br/>"); 
+
+     document.write("<br/>");
+     const values6 = ['a','b','c'];
+     document.write(" Array index value:"+values6.indexOf('c') + "<br/>"); 
+
+     document.write("<br/>");
+     const values7 = ['a','b','c'];
+     document.write(" Array index value:"+values7.indexOf('v') + "<br/>"); 
+
+     document.write("<br/>");
+     const values8 = ['a','b','c','d','e','z'];
+     const set = values8.filter(function(item) {
+      document.write('item:' , item + "<br/>");
+      return item > 'b';
+     });
+     document.write(" Array index value:"+(set) + "<br/>"); 
+
+     document.write("<br/>");
+     const values9 = ['a','b','c','d'];
+     values.forEach(function(item) {
+      document.write(" Array items:"+ item + "<br/>");
+     });
+     //document.write(" Array items:"+(item) + "<br/>"); 
